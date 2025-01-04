@@ -14,11 +14,6 @@ export PATH
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 #
-set -o vi
-
-export FZF_DEFAULT_OPTS='--layout reverse --info inline-right --bind ctrl-j:down,ctrl-k:up'
-
-eval "$(fzf --bash)"
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
     for rc in ~/.bashrc.d/*; do
@@ -28,3 +23,14 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+
+# user additions
+
+set -o vi
+
+export MANPAGER='nvim +Man!'
+export FZF_DEFAULT_OPTS='--layout reverse --info inline-right --bind'
+
+eval "$(fzf --bash)"
+
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
