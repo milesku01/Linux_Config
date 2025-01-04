@@ -29,7 +29,7 @@ unset rc
 set -o vi
 
 export MANPAGER='nvim +Man!'
-export FZF_DEFAULT_OPTS='--layout reverse --info inline-right --bind'
+export FZF_DEFAULT_OPTS='--layout reverse --info inline-right'
 
 eval "$(fzf --bash)"
 
