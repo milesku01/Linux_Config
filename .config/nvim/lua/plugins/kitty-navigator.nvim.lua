@@ -6,7 +6,7 @@ return {
   },
   keys = {
     {
-      '<C-h>',
+      '<C-S-h>',
       function()
         require('kitty-navigator').navigateLeft()
       end,
@@ -14,7 +14,7 @@ return {
       mode = { 'n' },
     },
     {
-      '<C-j>',
+      '<C-S-j>',
       function()
         require('kitty-navigator').navigateDown()
       end,
@@ -22,7 +22,7 @@ return {
       mode = { 'n' },
     },
     {
-      '<C-k>',
+      '<C-S-k>',
       function()
         require('kitty-navigator').navigateUp()
       end,
@@ -30,7 +30,7 @@ return {
       mode = { 'n' },
     },
     {
-      '<C-l>',
+      '<C-S-l>',
       function()
         require('kitty-navigator').navigateRight()
       end,
