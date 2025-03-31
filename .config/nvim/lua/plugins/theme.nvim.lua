@@ -13,5 +13,9 @@ return { -- You can easily change to a different colorscheme.
 
     -- You can configure highlights by doing something like:
     vim.cmd.hi 'Comment gui=none'
+
+    --NOTE: makes color more visible
+    vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = '#808080', bold = true })
+    vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = '#808080', bold = true })
   end,
 }

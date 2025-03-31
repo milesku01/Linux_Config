@@ -26,6 +26,9 @@ unset rc
 
 # user additions
 
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+
 set -o vi
 
 export MANPAGER='nvim +Man!'
