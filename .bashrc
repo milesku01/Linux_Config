@@ -25,6 +25,13 @@ fi
 unset rc
 
 # user additions
+#
+# NOTE: took from Nic!
+# Use colorful versions of utilities
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias ip='ip --color=auto'
+alias ls='ls --color=auto'
 
 export HISTSIZE=10000
 export HISTFILESIZE=10000
