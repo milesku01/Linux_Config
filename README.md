@@ -25,6 +25,20 @@ Install gnome-tweak-tools and run the application -- In the "Keyboard/Additional
 
 sudo pacman -S gnome-tweaks
 
+### New Mapping caps lock to escape -- follow steps at the following
+https://ejmastnak.com/tutorials/arch/caps2esc/
+
+#### NOTE: the mapping above worked but was super slow
+Since i'm using hyprland I just set the following setting in my hyprland.conf
+
+...
+input {
+    kb_options = caps:escape
+}
+...
+
+It worked like a charm
+
 ### Kitty -- follow "Binary install" and "Desktop integration on Linux"
 https://sw.kovidgoyal.net/kitty/binary/
 
@@ -56,7 +70,19 @@ Command:
 $ sensors
     Gives temperature readout of sensors etc...
 
+### Keyboard backlight and media keys 
 
+See article: https://wiki.archlinux.org/title/Hyprland#Media_keys
 
+sudo pacman -S brightnessctl
+sudo pacman -S pamixer playerctl
 
+### Waybar theme taken from:
+https://github.com/knightfallxz/Hyprland-Custom-Configuration/blob/Hypr-Config-3.0/waybar/Waybar-3.0/config
+
+### GTK APP theme
+https://aur.archlinux.org/packages/tokyonight-gtk-theme-git
+
+### wofi power menu
+https://github.com/acarl005/dotfiles/blob/master/waybar/scripts/power-menu.sh
 

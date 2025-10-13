@@ -29,7 +29,7 @@ vim.keymap.set("n", "<C-S-j>", "<C-w><C-j>", { desc = "Move focus to the lower w
 vim.keymap.set("n", "<C-S-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
 -- NOTE: pasting over highlighted text no longer has an issue
-vim.keymap.set("v", "p", "_dP", { noremap = true })
+vim.keymap.set("v", "p", "P", { noremap = true })
 
 --NOTE: had a notification upon copying at work -- must explicitly copy to sys clipboard
 vim.keymap.set("v", "<leader>y", '"+y', { noremap = true })

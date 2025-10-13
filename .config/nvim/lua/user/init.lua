@@ -1,3 +1,4 @@
 require("user.settings")
 require("user.autocommand")
+require("user.lsp")
 require("user.keys")
