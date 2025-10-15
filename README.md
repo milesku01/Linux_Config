@@ -86,3 +86,26 @@ https://aur.archlinux.org/packages/tokyonight-gtk-theme-git
 ### wofi power menu
 https://github.com/acarl005/dotfiles/blob/master/waybar/scripts/power-menu.sh
 
+
+### Vimium
+A plugin for browsing around with vim like commands -- pretty cool
+
+#### REMAPS
+unmap u
+unmap d
+unmap J
+unmap K
+unmap H
+unmap L
+unmap f
+unmap F
+
+map <c-u> scrollPageUp
+map <c-d> scrollPageDown
+map <c-j> goBack
+map <c-k> goForward
+map <c-h> previousTab
+map <c-l> nextTab
+map f LinkHints.activateModeToOpenInNewTab
+map F LinkHints.activateMode
+
