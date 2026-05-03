@@ -21,9 +21,7 @@ vim.lsp.config("clangd", {
 	filetypes = { "c", "cpp" },
 })
 
--- vim.lsp.config("pyright", { })
-
-vim.lsp.config("cmake", {
+vim.lsp.config("neocmake", {
 	filetypes = { "cmake" },
 })
 
@@ -53,13 +51,18 @@ vim.lsp.config("gopls", {
 	filetypes = { "go", "gomod", "gowork", "gotmpl" },
 })
 
+vim.lsp.config("rust_analyzer", {
+	filetypes = { "rust" },
+})
+
 vim.lsp.enable({
-	"cmake",
+	"neocmake",
 	"clangd",
 	"gopls",
 	"lua_ls",
 	"pyright",
 	"vtsls",
+	"rust_analyzer",
 })
 
 -- vim.api.nvim_create_autocmd("LspAttach", {

@@ -6,9 +6,13 @@ Adding some initial configuration files
 
 sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim 
 
-fzf firefox npm man nodejs go clang cmake yaml-cpp bat stow lua-language-server
+fzf firefox npm man nodejs go clang cmake yaml-cpp bat stow lua-language-server python-pipx wireshark cargo
 
 #NOTE: need to install some of the language packages / npm above for neovim mason languages to be installable
+
+# TODO: npm pyright, @vtsls/language-server
+# TODO: cargo neocmake
+# TODO: pipx
 
 ### Installing the JetBrains Mono NerdFont
 sudo pacman -S ttf-jetbrains-mono-nerd
