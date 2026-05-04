@@ -84,7 +84,6 @@ vim.keymap.set("n", "<leader>uC", require("snacks").picker.colorschemes, { desc 
 -- LSP
 vim.keymap.set("n", "gd", require("snacks").picker.lsp_definitions, { desc = "Goto Definition" })
 vim.keymap.set("n", "gD", require("snacks").picker.lsp_declarations, { desc = "Goto Declaration" })
--- TODO: fix
 vim.keymap.set("n", "gr", require("snacks").picker.lsp_references, { nowait = true, desc = "References" })
 vim.keymap.set("n", "gI", require("snacks").picker.lsp_implementations, { desc = "Goto Implementation" })
 vim.keymap.set("n", "gy", require("snacks").picker.lsp_type_definitions, { desc = "Goto T[y]pe Definition" })
