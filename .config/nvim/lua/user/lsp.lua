@@ -48,7 +48,7 @@ vim.lsp.config("pyright", {
 })
 
 vim.lsp.config("gopls", {
-	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+	filetypes = { "go", "gomod" },
 })
 
 vim.lsp.config("rust_analyzer", {
