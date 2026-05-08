@@ -47,6 +47,8 @@ set -o vi
 export MANPAGER='nvim +Man!'
 export FZF_DEFAULT_OPTS='--layout reverse --info inline-right'
 
+source /usr/share/bash-completion/completions/git
+
 eval "$(fzf --bash)"
 
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
