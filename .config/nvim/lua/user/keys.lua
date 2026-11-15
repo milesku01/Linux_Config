@@ -31,5 +31,8 @@ vim.keymap.set("n", "<C-S-k>", "<C-w><C-k>", { desc = "Move focus to the upper w
 -- NOTE: pasting over highlighted text no longer has an issue
 vim.keymap.set("v", "p", "P", { noremap = true })
 
+-- Attempting to search and reaplace highlighted text
+vim.keymap.set("v", "<leader>r", [["hy:%s/<C-r>h//g<left><left>]])
+
 --NOTE: had a notification upon copying at work -- must explicitly copy to sys clipboard
 vim.keymap.set("v", "<leader>y", '"+y', { noremap = true })
