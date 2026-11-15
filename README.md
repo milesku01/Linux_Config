@@ -14,6 +14,10 @@ net-tools
 # TODO: cargo neocmake
 # TODO: pipx
 
+### Stow
+
+mkdir ~/dotfiles/ && cd ~/dotfiles/ && git clone <this_repo> && stow .
+
 ### Installing the JetBrains Mono NerdFont
 sudo pacman -S ttf-jetbrains-mono-nerd
 
@@ -81,12 +85,5 @@ See article: https://wiki.archlinux.org/title/Hyprland#Media_keys
 sudo pacman -S brightnessctl
 sudo pacman -S pamixer playerctl
 
-### Waybar theme taken from:
-https://github.com/knightfallxz/Hyprland-Custom-Configuration/blob/Hypr-Config-3.0/waybar/Waybar-3.0/config
-
 ### GTK APP theme
 https://aur.archlinux.org/packages/tokyonight-gtk-theme-git
-
-### wofi power menu
-https://github.com/acarl005/dotfiles/blob/master/waybar/scripts/power-menu.sh
-
