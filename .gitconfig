@@ -1,0 +1,8 @@
+[user]
+	email = mileskuhn5@hotmail.com
+	name = Miles Kuhn
+[core]
+	editor = nvim
+	pager = diff-so-fancy
+[init]
+	defaultBranch = main

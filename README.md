@@ -5,8 +5,8 @@ Adding some initial configuration files
 ###  Arch
 
 sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim 
-
-fzf firefox npm man nodejs go clang cmake yaml-cpp bat stow lua-language-server python-pipx wireshark cargo
+fzf firefox npm man nodejs go clang cmake yaml-cpp bat stow lua-language-server python-pipx wireshark cargo nvim-treesitter-cli bash-completion traceroute wireguard-tools diff-so-fancy
+net-tools
 
 #NOTE: need to install some of the language packages / npm above for neovim mason languages to be installable
 
