@@ -47,6 +47,10 @@ vim.lsp.config("pyright", {
 	filetypes = { "python" },
 })
 
+vim.lsp.config("texlab", {
+	filetypes = { "tex" },
+})
+
 vim.lsp.config("gopls", {
 	filetypes = { "go", "gomod" },
 })
@@ -61,6 +65,7 @@ vim.lsp.enable({
 	"gopls",
 	"lua_ls",
 	"pyright",
+	"texlab",
 	"vtsls",
 	"rust_analyzer",
 })

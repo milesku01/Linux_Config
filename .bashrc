@@ -52,3 +52,4 @@ source /usr/share/bash-completion/completions/git
 eval "$(fzf --bash)"
 
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
+. "$HOME/.cargo/env"
